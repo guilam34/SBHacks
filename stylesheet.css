@@ -1,0 +1,156 @@
+body {
+	background-color: #f3f3f3;
+	margin:0;
+	padding:0;
+}
+
+#titlecontainer{	
+	position:relative;
+	top:50px;
+}
+
+#title {
+	font-family: "Lucida Sans Unicode";
+	text-align: center;
+	position: relative;
+}
+
+#nav {
+	position: absolute;
+	height:10%;
+	top:0%;
+	width:100%;
+	padding:0px 0px;
+	text-align:center;
+}
+#navlistcontainer{
+	position:relative;
+	padding:0;
+	width:720px;
+	margin:0 auto;
+	text-align: center;
+	list-style-type: none;
+	font-family: "Lucida Sans Unicode";
+}
+
+.navlistelement {
+	width:240px;
+	position:relative;
+	display: inline-block;
+	background-color:#ffffff;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+.navlistlink {
+	display: block;
+	width: 100px;
+	margin:0 auto;
+}
+
+.navlistlink:link {
+	padding: 20px;
+	width: 200px;
+	margin:0 auto;
+	text-decoration:none;
+	color: #000000;
+}
+
+.navlistlink:visited {
+	text-decoration:none;
+	color: #000000;
+}
+
+.navlistlink:hover {
+	background-color: #2db6c0;
+	color: #ffffff;
+}
+
+a.current{
+	padding: 20px;
+	text-decoration:none;
+	color: #2db6c0;
+}
+
+a.current:hover {
+	padding: 20px;
+	background-color: #2db6c0;
+	color: #ffffff;
+}
+
+#home{
+	padding-left:10px;
+	padding-top:5px;
+}
+
+a.home {
+	padding: 0px;
+	width: 10px;
+	margin:0px;
+}
+
+a.home:hover {
+	padding: 0px;
+	width: 10px;
+	background-color: #f3f3f3;
+}
+
+#login-background{
+	position:relative;	
+	width:400px;
+	height:620px;
+	margin:0 auto;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	background-color:#2DB6C0;
+	opacity: 0.8;
+	font-family: "Lucida Sans Unicode";
+	font-size: 20px;
+}
+
+#ortext{
+	margin-top:10px;
+	margin-bottom:5px;
+	text-align:center;
+}
+
+#fblogincontainer{
+	width:60%;
+	margin:0 auto;
+
+}
+#fblogin {
+	position:relative;
+	display:block;
+	padding: 10px;
+	border: none;
+	background: #2e2e2e;
+	color: #ffffff;
+	text-align:center;
+	margin:0 auto;
+	font-size: 15px;
+}
+
+.formcontainer{
+	margin-left:0;
+	margin-right:0;
+}
+
+.signupfields{
+	height:15px;
+}
+
+.signupform {
+	margin:0 auto;
+	width:150px;
+	font-size:12px;
+}
+
+.signupbutton {
+	padding: 7px;
+	border: none;
+	background:#2e2e2e;
+	color: #ffffff;
+}
+
+
