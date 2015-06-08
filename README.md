@@ -1,7 +1,5 @@
 # SBHacks-FitBook-Web-App
 
-**IN PROGRESS**
-
 FitBook is a social fitness app centered around helping users share and discover new workouts in the form of logs. 
 
 Current features include:</br>
